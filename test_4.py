@@ -1,7 +1,7 @@
 from pysnmp.hlapi import *
 
 # original sysName  MikroTik
-COMMUNITY = CommunityData('public'),
+COMMUNITY = CommunityData('public')
 TARGET = UdpTransportTarget(('demo.snmplabs.com', 162)
 #COMMUNITY = CommunityData('desarrollo', mpModel=1)
 #TARGET = UdpTransportTarget(('192.168.1.1', 161))
