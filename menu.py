@@ -10,4 +10,4 @@ while (exitFlag!=0):
         print('1. Get simple queue list \n 2. Set simple queue')
         option_queue = input()
         if(option_queue==1):
-            api.get_simple_queue(api) 
+            api.get_simple_queue() 
