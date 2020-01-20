@@ -1,13 +1,17 @@
+from Api_mikrotik import Mikrotik
 
-import Api_mikrotik as api
 
-exitFlag= 1
 
-while (exitFlag!=0):
-    print('1. Enter simple queue options \n 2. Enter System options')
-    option = input()
-    if(option==1):
-        print('1. Get simple queue list \n 2. Set simple queue')
-        option_queue = input()
-        if(option_queue==1):
-            api.get_simple_queue()
+if __name__ == "__main__":
+    MIKROTIK = Mikrotik()
+    print('Que desea Haver?')
+    print('1: mostrar configuraciones del sistema')
+    print('2: mostrar cola simple')
+    response = int(input())
+    if response == 1:
+        for x in MIKROTIK.get_system_attributes():
+            print(x)
+    
+    else:
+        for x in MIKROTIK.get_simple_queue():
+            print(x)
