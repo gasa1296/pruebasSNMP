@@ -1,4 +1,4 @@
-Usar proyect Odoo
+Usar project Odoo
 
 Crear:
 	Lista de proyectos
@@ -10,11 +10,11 @@ Escoger controlador de versiones:
 	gitlab
 	
 Tipos de lincencia a manejar
-	
+	-Licencia de odoo= LGLP
 Desarrollar Documentacion
 
 Documentarse acerca de:
-	metodologias:
+	-Metodologias:
 		Agil
 		Scrum
 	DEVOPS
@@ -26,4 +26,4 @@ Documentarse acerca de:
 		Huawei
 		Zabbix
 	
-servidores de produccion, desarrollo y tester
+Servidor de desarrollo, producción y testing.
